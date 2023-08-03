@@ -1,6 +1,6 @@
 <nav>
     
-    <a href="https://www.online.op.ac.nz/"> OP Student hub </a>
+    <a href="/about"> About Page </a>
     <a href="https://www.online.op.ac.nz/"> OP Student hub </a>
     <a href="https://www.online.op.ac.nz/"> OP Student hub </a>
     <a href="https://www.online.op.ac.nz/"> OP Student hub </a>
