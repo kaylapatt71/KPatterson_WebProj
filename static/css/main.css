@@ -1,6 +1,6 @@
 body{
     margin:0;
-    background-color: #D9BFC3 ;
+    background-color: #e8ccd7 ;
     
 }
 
@@ -13,5 +13,6 @@ h1{
     width:100%;
     height:50vh;
     background-size:cover;
-    background-position: center;
+    background-position:center;
 }
+
