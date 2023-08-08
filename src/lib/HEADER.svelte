@@ -7,3 +7,5 @@
 </script>
 
 <Nav/>
+
+<div class="hero"></div>

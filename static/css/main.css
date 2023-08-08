@@ -1,0 +1,17 @@
+body{
+    margin:0;
+    background-color: #D9BFC3 ;
+    
+}
+
+h1{
+    color:#5A2338;
+}
+
+.hero{
+    background-image: url('../img/bakeryDisplayCase.jpg');
+    width:100%;
+    height:50vh;
+    background-size:cover;
+    background-position: center;
+}
