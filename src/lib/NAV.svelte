@@ -1,9 +1,8 @@
 <nav>
-    
+    <a href="/home"> Home </a>
     <a href="/about"> Our story </a>
-    <a href="https://www.online.op.ac.nz/"> Custom orders </a>
-    <a href="https://www.online.op.ac.nz/"> Product gallery </a>
-    <a href="https://www.online.op.ac.nz/"> Grazing platters </a>
-    <a href="https://www.online.op.ac.nz/"> Contact us </a>
+    <a href="/customOrders"> Custom orders </a>
+    <a href="/productGallery"> Product gallery </a>
+    <a href="/contact"> Contact us </a>
 
 </nav>
