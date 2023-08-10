@@ -1,5 +1,5 @@
 <nav>
-    <a href="/home"> Home </a>
+    <a href=""> Home </a>
     <a href="/about"> Our story </a>
     <a href="/customOrders"> Custom orders </a>
     <a href="/productGallery"> Product gallery </a>
