@@ -5,7 +5,7 @@ body{
 }
 
 h1{
-    color:#5A2338;
+    color:#3C1414;
     font-family:'Segoe UI'
 }
 
@@ -15,5 +15,18 @@ h1{
     height:50vh;
     background-size:cover;
     background-position:center;
+}
+
+nav{
+    color:#3C1414;
+    background-color: #A17A74;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    width:100%;
+}
+
+.foot{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3C1414;
 }
 

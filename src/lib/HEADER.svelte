@@ -6,6 +6,6 @@
     import Nav from '$lib/NAV.svelte';
 </script>
 
-<Nav/>
-
 <div class="hero"></div>
+
+<Nav/>
