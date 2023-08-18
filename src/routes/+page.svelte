@@ -1,6 +1,6 @@
 
 
-<h1> Welcome to The Rolling Pin Bakery, a family-owned and operated bakery where every day begins with a sprinkle of love and a dash of passion </h1>
+<h1> Welcome to The Rolling Pin Bakery!</h1>
 
 <div class="row">
     <div class="column">

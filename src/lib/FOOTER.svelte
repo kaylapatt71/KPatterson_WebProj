@@ -1,3 +1,3 @@
 <footer class="foot"> 
-    The Rolling Pin Bakery
+   <p> Copyright © 2023, The Rolling Pin Bakery</p>
 </footer>
