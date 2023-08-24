@@ -33,11 +33,11 @@ nav{
 
 #nav a {
     color: #3C1414;
-    text-align: center;
+    
     padding: 15px;
-    float: right;
-    display: block;   
-}  /* from scaler.com*/
+    display: flexbox;
+    
+}  
 
 .foot{
     font-family: Arial, Helvetica, sans-serif;
