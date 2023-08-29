@@ -1,16 +1,13 @@
 
 
-<h1> Welcome to The Rolling Pin Bakery!</h1>
-
-
-  <body>
     <div class="container">
-      <div>
-        <img src='..\static\img\logo.jpeg' alt ="logo">
+      <div class="img">
+        <img src='\img\transpLogo.png' alt ="transparent logo">
       </div>
       <div class="text">
-        <h1>Text go here</h1>
+        <p>Welcome to The Rolling Pin Bakery, a family-owned and operated bakery
+          where every day begins with a sprinkle of love and a dash of passion</p>
       </div>
     </div>
-  </body>
+
 

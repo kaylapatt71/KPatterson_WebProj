@@ -1,7 +1,6 @@
 <body>
     <!-- Navbar -->
     <header>
-        <h1 id="nav-title">The Rolling Pin</h1>
         <nav>
             <ul>
                 <a style="text-decoration:none" href="/"> Home </a>
