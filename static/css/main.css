@@ -18,6 +18,23 @@ h1{
     font-size: 0.4em;
 }
 
+h2{
+    display: flex;
+    color:#49423e;
+    text-align: center;
+    font-size: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+li{
+    display: flex;
+    color:#49423e;
+    text-align: center;
+    font-size: 2rem;
+    justify-content: center;
+    align-items: center; 
+   
+}
 .hero{
     background-image: url('../img/bakeryDisplayCase.jpg');
     width:100%;
@@ -65,11 +82,8 @@ header a:hover {
 .container {
     display: flex;
     width: 100%;
-
-    
-    
    }
-   
+
 .img {
      width:50%;
      display: flex;
@@ -78,9 +92,8 @@ header a:hover {
    }
 
 .img img{
-    width: 75%;
+    width: 70%;
     display: flex;
-   
 }
    
 .text {
