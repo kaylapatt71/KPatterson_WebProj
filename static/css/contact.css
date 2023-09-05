@@ -6,7 +6,7 @@
 /* Set font of all elements to 'Roboto' */
 * {
 	font-family: 'Roboto', sans-serif;
-	font-weight: 400;
+	font-weight: 400;	
 }
 
 /* Remove outline of all elements on focus */
@@ -27,7 +27,7 @@ h3 {
 .container {
 	padding: 12px 24px 24px 24px;
 	margin: 48px 12px;
-	background: #E3F2FD;
+	background: #fafcef;
 	border-radius: 4px;
 }
 
@@ -56,7 +56,7 @@ input[type=text]:focus,input[type=email]:focus, textarea:focus {
 
 /* Add styles to the submit button */
 input[type=submit] {
-	background: #64B5F6;
+	background: #ffbcd9;
 	margin: 0 auto;
 	outline: 0;
 	color: white;
@@ -77,7 +77,7 @@ input[type=submit]:focus {
 
 /* Style 'hover' property */
 input[type=submit]:hover {
-	background: #fafcef;
+	background: #49423e;
 }
 
 /* Align items to center of the 'div' with the class 'center' */
