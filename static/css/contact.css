@@ -26,7 +26,6 @@ h3 {
 /* Add styles to 'container' class */
 .container {
 	padding: 12px 24px 24px 24px;
-	margin: 48px 12px;
 	background: #fafcef;
 	border-radius: 4px;
 }
@@ -51,7 +50,7 @@ input[type=text],input[type=email], textarea {
 
 /* Add styles to show 'focus' of selector */
 input[type=text]:focus,input[type=email]:focus, textarea:focus {
-	border: 1px solid green;
+	border: 1px solid #ffbcd9;
 }
 
 /* Add styles to the submit button */
