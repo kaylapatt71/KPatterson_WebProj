@@ -4,7 +4,7 @@
     <h3> Contact Form</h3>
     <form action='#' name="contact form">
         <label for="first_name">First Name</label>
-        <input name="first_name" type="text" required placeholder="John"/>
+        <input name="first_name" type="text" required placeholder="Jane"/>
         <br>
         <label for="last_name">Last Name</label>
         <input name="last_name" type="text" required placeholder="Doe"/>
