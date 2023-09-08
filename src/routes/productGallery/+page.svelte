@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="css\gallery.css">
 <div class="row">
     <div class="column">
       <img src='/img/breadSlice.jpg'  alt = 'bread slices'>
@@ -19,18 +20,18 @@
     <div class="column">
       <img src='/img/sausageRolls.jpg'  alt ='sausage rolls'>
       <img src='/img/scrolls.jpg'  alt = 'scrolls'>
-      <img src="falls2.jpg">
-      <img src="paris.jpg">
-      <img src="nature.jpg">
-      <img src="mist.jpg">
-      <img src="paris.jpg">
+      <img src='/img/cakePops.jpg' alt = 'cake pops'>
+      <img src='/img/cheeseCake.jpg' alt = 'cheesecake'>
+      <img src='/img/carrotCake.jpg' alt = ' carrot cake'>
+      <img src='/img/applePie.jpg' alt = 'apple pie'>
+      <img src='/img/beeCake.jpg' alt = 'bee cake'>
     </div>
     <div class="column">
-      <img src="underwater.jpg">
-      <img src="ocean.jpg">
-      <img src="wedding.jpg">
-      <img src="mountainskies.jpg">
-      <img src="rocks.jpg">
-      <img src="underwater.jpg">
+      <img src='/img/breadRolls.jpg' alt = 'bread rolls'>
+      <img src='/img/macarons.jpg' alt = 'macarons'>
+      <img src='/img/merengue.jpg' alt = 'merengue'>
+      <img src='/img/weddingcake.jpg' alt = 'wedding cake'>
+      <img src='/img/vanillaCakeSlice.jpg' alt = 'vanilla cake slice'>
+      <img src='/img/redCupcake.jpg' alt = 'red cupcake'>
     </div>
   </div>

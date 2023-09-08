@@ -1,6 +1,6 @@
 <div class="container">
     <div class="img">
-      <img src='/img/redCupcake.jpg' alt ="Lemon cupcakes">
+      <img src='/img/flour.jpg' alt ="flour">
     </div>
     <div class="text">
       <p>As a family, we believe that baking
@@ -20,7 +20,7 @@
         </p>
     </div>
     <div class="img">
-        <img src='/img/whiteCake.jpg' alt="hemp cookies">
+        <img src='/img/flour1.jpg' alt="flour">
     </div>
   </div>
 
