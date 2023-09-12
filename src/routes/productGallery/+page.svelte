@@ -1,4 +1,5 @@
-<link rel="stylesheet" href="css\gallery.css">
+<link rel="stylesheet" href="css/gallery.css">
+
 <div class="row">
     <div class="column">
       <img src='/img/chocCakeSlice.jpg'  alt = 'chocolate cake slice'>
