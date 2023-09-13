@@ -16,7 +16,7 @@
 
 body {
 	margin:0;
-    background-color: #fafcef;  
+    background-color: #ffffff;  
 }
 
 h3 {
@@ -26,7 +26,7 @@ h3 {
 /* Add styles to 'container' class */
 .container {
 	padding: 12px 24px 24px 24px;
-	background: #fafcef;
+	background: #ffffff;
 	border-radius: 4px;
 }
 

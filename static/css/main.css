@@ -7,7 +7,7 @@
 
 body{
     margin:0;
-    background-color: #fafcef;
+    background-color: #ffffff;
      
 }
 
@@ -83,6 +83,7 @@ header a:hover {
     display: flex;
     width: 100%;
     margin: 0;
+    background-color: #ffffff;
    }
 
 .img {
