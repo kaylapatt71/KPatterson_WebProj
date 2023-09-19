@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="css/gallery.css"/>
 </svelte:head>
 
+
+
 <Header />
 
 <slot /> <!--page content-->

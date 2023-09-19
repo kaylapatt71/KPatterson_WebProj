@@ -36,29 +36,33 @@ li{
    
 }
 
-nav{
+nav {
     width: 100%;
     background-color: #ffbcd9;
-    padding: 4rem 4rem;
-}
+    padding: 2rem; /* Reduced padding for smaller screens */
 
-nav #nav{
-    display:flex;
+  }
+
+  nav #nav {
+    display: flex;
     flex-direction: row;
     justify-content: center;
-}
+    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+  }
 
-nav a{
-    padding: 0 9rem;
-    font-size: 1.75rem;
+  nav a {
+    padding: 0.5rem 1rem; /* Adjust padding for smaller screens */
+    font-size: 1.25rem; /* Adjust font size for smaller screens */
     text-decoration: none;
     color: #49423e;
     font-family: 'Montserrat', sans-serif;
-}
+    white-space: nowrap; /* Prevent text from wrapping */
+    margin: 0.5rem; /* Add some spacing between links */
+  }
 
-nav a:hover{
-    color:#ffffff
-}
+  nav a:hover {
+    color: #ffffff;
+  }
 .hero{
     background-image: url('../img/bakeryDisplayCase.jpg');
     width:100%;
@@ -67,35 +71,6 @@ nav a:hover{
     background-position:center;
 }
 
-/*header {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding: 20px 50px;
-    box-shadow: 0 1px 8px #fafcef;
-}*/
-
-/*#nav-title {
-    margin-right: auto;
-    font-size: 1.5em;
-}*/
-
-/*header li {
-    list-style: none;
-    display: inline-block;
-    padding: 0 20px;
-} */
-
-/*header a {
-    text-decoration: none;
-    color: #49423e;
-    transition: all 0.3s ease 0s;
-}*/
-
-/*header a:hover {
-    color: #ffbcd9;
-}*/
-
 .foot{
     width: 100%;
     padding: 4rem 4rem;
@@ -103,6 +78,8 @@ nav a:hover{
     color: #49423e;
     font-size: 1em;
     background-color: #ffbcd9;
+    display: flex;
+    justify-content: end;
 }
 
 .container {
@@ -132,6 +109,10 @@ nav a:hover{
      justify-content: center;
      align-items: center;
    }
+
+.copyright{
+    display: flex;
+}
  
 
 
