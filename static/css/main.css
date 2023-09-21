@@ -79,7 +79,7 @@ nav {
     font-size: 1em;
     background-color: #ffbcd9;
     display: flex;
-    justify-content: end;
+    justify-content:flex-start
 }
 
 .container {
@@ -110,9 +110,6 @@ nav {
      align-items: center;
    }
 
-.copyright{
-    display: flex;
-}
  
 
 
