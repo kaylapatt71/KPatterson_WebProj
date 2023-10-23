@@ -15,13 +15,11 @@
   <div class="container"> 
     <div class="text">
         <p>At The Rolling Pin Bakery, we take pride in using only the finest, locally sourced ingredients.
-             Our recipes are cherished family secrets, passed down from one generation to the next. 
-             From delectable pastries and cakes to mouthwatering cookies and bread, every bite is a testament to our commitment to quality.
+            Our recipes are cherished family secrets, passed down from one generation to the next. 
+            From delectable pastries and cakes to mouthwatering cookies and bread, every bite is a testament to our commitment to quality.
         </p>
     </div>
     <div class="img">
         <img src='/img/flour1.jpg' alt="flour">
     </div>
   </div>
-
- 
