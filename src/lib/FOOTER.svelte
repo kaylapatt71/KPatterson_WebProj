@@ -1,20 +1,12 @@
-<footer class="foot"> 
 
-   <a href="shield" id="shielded-logo">
-      <img alt="shielded" src="https://shielded.co.nz/img/custom-logo.png" height="60" width="60"></a>
-  <script src="https://staticcdn.co.nz/embed/embed.js"></script>
-
-  <script>
-      (function () {
-          window.onload = function(){
-              var frameName = new ds07o6pcmkorn({
-                  openElementId: "#shielded-logo",
-                  modalID: "modal",
-              });
-              frameName.init();
-          }
-      })();
-  </script>
-  
- <p> Copyright © 2023, The Rolling Pin Bakery</p>
+<footer> 
+    <div class="foot">
+        <div class="footleft">
+            <div class="exploreheader">      
+            </div>
+            <ul class="explorelist17">
+                <li class="footList">Copyright © 2023, The Rolling Pin Bakery</li>
+            </ul>                
+        </div>
+    </div>
 </footer>
