@@ -1,140 +1,138 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: Arial;
-  }
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+}
 
-  :root{
-    --mainText: #49423e; 
-    --white: #ffffff;
-    --pink: #ffbcd9;
-  }
-body{
-    margin:0;
-    background-color:var(--white);
-  }
+:root {
+  --mainText: #49423e;
+  --white: #ffffff;
+  --pink: #ffbcd9;
+}
+body {
+  margin: 0;
+  background-color: var(--white);
+}
 
-h1{
-    color:var(--mainText);
-    font-family: Arial;
-    text-align: center;
-    font-size: 0.4em;
-  }
+h1 {
+  color: var(--mainText);
+  font-family: Arial;
+  text-align: center;
+  font-size: 0.4em;
+}
 
-h2{
-    display: flex;
-    color:var(--mainText);
-    text-align: center;
-    font-size: 3rem;
-    justify-content: center;
-    align-items: center;
-  }
+h2 {
+  display: flex;
+  color: var(--mainText);
+  text-align: center;
+  font-size: 3rem;
+  justify-content: center;
+  align-items: center;
+}
 
-li{
-    display: flex;
-    color:var(--mainText);
-    text-align: center;
-    font-size: 2rem;
-    justify-content: center;
-    align-items: center;
-  }
+li {
+  display: flex;
+  color: var(--mainText);
+  text-align: center;
+  font-size: 2rem;
+  justify-content: center;
+  align-items: center;
+}
 
 nav {
-    width: 100%;
-    background-color:var(--pink);
-    padding: 2rem; /* Reduced padding for smaller screens */
-  }
+  width: 100%;
+  background-color: var(--pink);
+  padding: 2rem; /* Reduced padding for smaller screens */
+}
 
-  nav #nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
-  }
+nav #nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+}
 
-  nav a {
-    padding: 0.5rem 1rem; /* Adjust padding for smaller screens */
-    font-size: 1.25rem; /* Adjust font size for smaller screens */
-    text-decoration: none;
-    color:var(--mainText);
-    font-family: 'Montserrat', sans-serif;
-    white-space: nowrap; /* Prevent text from wrapping */
-    margin: 0.5rem; /* Add some spacing between links */
-  }
+nav a {
+  padding: 0.5rem 1rem; /* Adjust padding for smaller screens */
+  font-size: 1.25rem; /* Adjust font size for smaller screens */
+  text-decoration: none;
+  color: var(--mainText);
+  font-family: "Montserrat", sans-serif;
+  white-space: nowrap; /* Prevent text from wrapping */
+  margin: 0.5rem; /* Add some spacing between links */
+}
 
-  nav a:hover {
-    color:var(--white);
-  }
+nav a:hover {
+  color: var(--white);
+}
 
-.hero{
-    background-image: url('../img/bakeryDisplayCase.jpg');
-    width:100%;
-    height:30vh;
-    background-size:cover;
-    background-position:center;
-  }
+.hero {
+  background-image: url("../img/bakeryDisplayCase.jpg");
+  width: 100%;
+  height: 30vh;
+  background-size: cover;
+  background-position: center;
+}
 
-footer{
+footer {
   background-color: var(--pink);
 }
-.foot{
+.foot {
   display: flex;
   padding: 4vh 5vw;
   justify-content: space-between;
-  }
-
-  .foot > ul{
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
-  }
-
-  .footleft{
-    flex: 1;
-    width: 100%;
 }
 
-.exploreheader{
-  border-bottom: 2px solid rgb(46, 46, 46);
+.foot > ul {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+.footleft {
+  flex: 1;
+  width: 100%;
+}
+
+.exploreheader {
+  border-bottom: 2px solid var(--mainText);
   display: flex;
-  align-items:baseline;
+  align-items: baseline;
   margin-bottom: 1em;
 }
 
+.footList{
+  color: var(--mainText);
+}
+
 .container {
-    display: flex;
-    width: 100%;
-    margin: 0;
-    background-color:var(--white);
-  }
+  display: flex;
+  width: 100%;
+  margin: 0;
+  background-color: var(--white);
+}
 
 .img {
-    width:50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-.img img{
-    width: 70%;
-    display: flex;
-  }
+.img img {
+  width: 70%;
+  display: flex;
+}
 
 .text {
-    font-size: 2rem;
-    text-align: center;
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-
-
-
-
-
+  font-size: 2rem;
+  text-align: center;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
