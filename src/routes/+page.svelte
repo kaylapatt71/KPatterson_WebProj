@@ -1,6 +1,7 @@
 
 
     <div class="container">
+      <title>Home | The Rolling Pin</title>
       <div class="img">
         <img src='/img/transpLogo.png' alt ="transparent logo">
       </div>

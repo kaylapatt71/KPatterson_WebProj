@@ -1,4 +1,5 @@
 <div class="container">
+  <title>Our Story | The Rolling Pin</title>
     <div class="img">
       <img src='/img/flour.jpg' alt ="flour">
     </div>

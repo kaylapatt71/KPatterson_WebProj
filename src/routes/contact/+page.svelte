@@ -6,7 +6,7 @@
 <link rel="stylesheet" href="css\contact.css" />
 
 <div class="container">
-  <title>Contact</title>
+  <title>Contact Us | The Rolling Pin</title>
   <h3>Contact Form</h3>
   {#if form?.success}
     <p class="success">{form?.status || ""}</p>

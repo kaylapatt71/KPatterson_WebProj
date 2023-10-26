@@ -20,7 +20,7 @@ export const actions = {
         .required("Please enter a valid email address"),
       message: string()
         .min(2, "Too short")
-        .required("Please enter a valid message")
+        .required("Please enter a valid message"),
     });
 
     try {
@@ -44,7 +44,7 @@ export const actions = {
         first_name,
         last_name,
         email,
-        message
+        message,
       };
     }
   },

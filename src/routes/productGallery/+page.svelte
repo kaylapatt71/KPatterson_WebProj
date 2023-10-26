@@ -1,6 +1,7 @@
 <link rel="stylesheet" href="css/gallery.css">
 
 <div class="row">
+  <title>Product Gallery | The Rolling Pin</title>
     <div class="column">
       <img src='/img/chocCakeSlice.jpg'  alt = 'chocolate cake slice'>
       <img src='/img/breadSlice.jpg'  alt = 'bread slices'>
