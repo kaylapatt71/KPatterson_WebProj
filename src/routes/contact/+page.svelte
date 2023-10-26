@@ -30,6 +30,32 @@
       {#if form?.errors?.first_name}
         <p>{form?.errors?.first_name}</p>
       {/if}
+
+      <label for="last_name">Last Name</label>
+      <input
+        id="last_name"
+        name="last_name"
+        type="text"
+        placeholder="Doe"
+        value={form?.last_name || ""}
+        class:error={form?.errors?.last_name}
+      />
+      {#if form?.errors?.last_name}
+        <p>{form?.errors?.last_name}</p>
+      {/if}
+
+      <label for="email">Email</label>
+      <input
+        id="email"
+        name="email"
+        type="email"
+        placeholder="yourname@email.com"
+        value={form?.email || ""}
+        class:error={form?.errors?.email}
+      />
+      {#if form?.errors?.email}
+        <p>{form?.errors?.email}</p>
+      {/if}
       <!-- <br />
       <label for="last_name">Last Name</label>
       <input name="last_name" type="text" required placeholder="Doe" />
