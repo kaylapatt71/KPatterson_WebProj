@@ -6,7 +6,7 @@ export const actions = {
     const first_name = formData.get("first_name");
     const last_name = formData.get("last_name");
     const email = formData.get("email");
-    /** Add other fields */
+    const message = formData.get("message");
 
     const contactFormSchema = object({
       first_name: string()
@@ -18,12 +18,14 @@ export const actions = {
       email: string()
         .min(2, "Too short")
         .required("Please enter a valid email address"),
-        
+      message: string()
+        .min(2, "Too short")
+        .required("Please enter a valid message")
     });
 
     try {
       await contactFormSchema.validate(
-        { first_name, last_name, email /** Add other fields */ },
+        { first_name, last_name, email, message },
         { abortEarly: false }
       );
 
@@ -42,7 +44,7 @@ export const actions = {
         first_name,
         last_name,
         email,
-        /** Add other fields */
+        message
       };
     }
   },
