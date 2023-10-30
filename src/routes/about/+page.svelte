@@ -1,7 +1,23 @@
+<script>
+  import { onMount } from "svelte";
+
+  let imgs = [];
+  const BASE_URL = `https://api.unsplash.com`;
+  onMount(() => {
+    fetch(
+      `${BASE_URL}/search/photos?query=bakery&per_page=2&orientation=portrait&client_id=NaEXvicetTERERuXGMiAr0ojC8yUdhMAyUdAQawJkf0`
+    )
+      .then((res) => res.json())
+      .then((data) => {
+        imgs = data.results;
+      });
+  });
+</script>
+
 <div class="container">
   <title>Our Story | The Rolling Pin</title>
   <div class="img">
-    <img src="/img/flour.jpg" alt="flour" />
+    <img src={img.urls.regular} alt="" />
   </div>
   <div class="text">
     <p>
@@ -26,6 +42,12 @@
     </p>
   </div>
   <div class="img">
-    <img src="/img/flour1.jpg" alt="flour" />
+    <img src={img.urls.regular} alt="" />
   </div>
+</div>
+
+<div class="aboutPics">
+  {#each imgs as img}
+    <img src={img.urls.regular} alt="aboutUsPics" />
+  {/each}
 </div>
