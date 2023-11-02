@@ -3,21 +3,21 @@
 
   let imgs = [];
   const BASE_URL = `https://api.unsplash.com`;
-  onMount(() => {
-    fetch(
-      `${BASE_URL}/search/photos?query=bakery&per_page=2&orientation=portrait&client_id=NaEXvicetTERERuXGMiAr0ojC8yUdhMAyUdAQawJkf0`
-    )
-      .then((res) => res.json())
-      .then((data) => {
-        imgs = data.results;
-      });
+  let img;
+  onMount(async () => {
+    const res = await fetch(
+      `${BASE_URL}/search/photos?query=bakery&per_page=1&orientation=portrait&client_id=NaEXvicetTERERuXGMiAr0ojC8yUdhMAyUdAQawJkf0`
+    );
+    let data = await res.json();
+    imgs = data.results[0];
+    img = imgs.urls.regular;
   });
 </script>
 
 <div class="container">
   <title>Our Story | The Rolling Pin</title>
   <div class="img">
-    <img src={img.urls.regular} alt="" />
+    <img src={img} alt="" />
   </div>
   <div class="text">
     <p>
@@ -42,12 +42,12 @@
     </p>
   </div>
   <div class="img">
-    <img src={img.urls.regular} alt="" />
+    <img src={img} alt="" />
   </div>
 </div>
 
-<div class="aboutPics">
+<!-- <div class="aboutPics">
   {#each imgs as img}
     <img src={img.urls.regular} alt="aboutUsPics" />
   {/each}
-</div>
+</div> -->
