@@ -32,4 +32,18 @@ To save time and not get too caried away, I utilised Open.AI ChatGPT by getting 
 
 - [x] Hover on all buttons. 
 
+**Credits**
 
+Shielded site buton - https://shielded.co.nz/
+
+Website content - https://chat.openai.com/
+
+CSS flexbox image gallery - https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp
+
+**Inspiration Websites**
+
+Side on bakery - https://www.side-on.co.nz/ 
+
+BABCO bakery - http://www.babco.co.nz/
+
+Baked and raised bakery - https://bakedandraised.co.nz/
