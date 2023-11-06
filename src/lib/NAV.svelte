@@ -1,4 +1,3 @@
-
 <body>
   <!-- Navbar -->
   <header>
@@ -13,8 +12,12 @@
   </header>
 </body>
 
-
 <style>
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
   nav {
     width: 100%;
     background-color: var(--pink);

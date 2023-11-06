@@ -46,8 +46,3 @@
   </div>
 </div>
 
-<!-- <div class="aboutPics">
-  {#each imgs as img}
-    <img src={img.urls.regular} alt="aboutUsPics" />
-  {/each}
-</div> -->
