@@ -9,6 +9,8 @@ To open project - Once cloned, right click the project folder and select "open w
 
 To run site - Open a terminal in VS Code, install svelte kit with "npm i" and open site with "npm run dev -- --open" to open the site within your default browser. 
 
+Check the inspo.md file for my inpspiration sites and critique. 
+
 **Project Description**
 
 I used https://kit.svelte.dev/ framework to build the site. The site was built in VisualStudio Code.
