@@ -1,38 +1,10 @@
-# create-svelte
+The Rolling Pin Bakery - Kayla Patterson Web Project 2023
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+**Getting started**
+To Install site - Click the green button labled "Code" in the repo, in the dropdown menu copy the HTTPS link. Once you've done that, right click where you would like to clone the repo to (desktop, file explorer etc), choose Git bash here. 
+Type out the command "git bash" and paste the HTTPS link directly after the command. Press enter to clone the repo.
+To open project - Once cloned, right click the project folder and select "open with Code" to open the project in VS code.
+To run site - Open a terminal in VS Code, install svelte kit with "npm i" and open site with "npm run dev -- --open" to open the site within your default browser. 
 
-## Creating a project
 
-If you're seeing this, you've probably already done this step. Congrats!
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
