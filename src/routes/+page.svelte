@@ -17,14 +17,9 @@
 </div>
 
 <style>
-  p {
+  .text {
     font-size: 1.25rem;
     color: var(--mainText);
   }
 
-  h2 {
-    display: flex;
-    color: var(--mainText);
-    font-size: 2rem;
-  }
 </style>
