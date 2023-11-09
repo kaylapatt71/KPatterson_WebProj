@@ -2,7 +2,7 @@ The Rolling Pin Bakery - Kayla Patterson Web Project 2023
 
 **Getting started**
 
-To Install site - Click the green button labled "Code" in the repo, in the dropdown menu copy the HTTPS link. Once you've done that, right click where you would like to clone the repo to (desktop, file explorer etc), choose Git bash here. 
+To Install site - Click the green button labeled "Code" in the repo, in the dropdown menu copy the HTTPS link. Once you've done that, right click where you would like to clone the repo to (desktop, file explorer etc), choose Git bash here. 
 Type out the command "git bash" and paste the HTTPS link directly after the command. Press enter to clone the repo.
 
 To open project - Once cloned, right click the project folder and select "open with Code" to open the project in VS code.
@@ -18,11 +18,11 @@ I used https://kit.svelte.dev/ framework to build the site. The site was built i
 This website is for a fictional bakery business. It was inspired by my late grandmother Ann who always had a passion for cooking and baking.
 She had also been a massive inspiration for me and was my biggest motivation to better myself by studying. 
 
-To save time and not get too caried away, I utilised Open.AI ChatGPT by getting it to write the content for the website. 
+To save time and not get too carried away, I utilised Open.AI ChatGPT by getting it to write the content for the website. 
 
 **Features**
 
-- [x] Womens refuge shielded site button (top left).
+- [x] women's refuge shielded site button (top left).
 
 - [x] Responsive navigation bar.
 
@@ -36,7 +36,7 @@ To save time and not get too caried away, I utilised Open.AI ChatGPT by getting 
 
 **Credits**
 
-Shielded site buton - https://shielded.co.nz/
+Shielded site button - https://shielded.co.nz/
 
 Website content - https://chat.openai.com/
 
