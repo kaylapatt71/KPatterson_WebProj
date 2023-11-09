@@ -2,7 +2,7 @@
   <div class="foot">
     <script src="https://staticcdn.co.nz/embed/embed.js"></script>
     <script>
-      (function () {
+      (function () { // Anonymous function to encapsulate the code
         window.onload = function () {
           var frameName = new ds07o6pcmkorn({
             right: 300,
@@ -10,19 +10,19 @@
             iconSize: "small",
             modalID: "modal",
           });
-          frameName.init();
+          frameName.init(); // Initialize the created instance
         };
       })();
     </script>
     <div class="footleft">
-      <li>
+      <li>  <!-- List items within the container -->
         <div class="navLogo">
-          <img src="/img/transpLogo.png" class="transpLogo" alt = "logo" />
+          <img src="/img/transpLogo.png" class="transpLogo" alt="logo" />  <!-- Image element for the transparent logo -->
         </div>
       </li>
       <div class="exploreheader" />
       <ul class="explorelist17">
-        <li class="footList">Copyright © 2023, The Rolling Pin Bakery</li>
+        <li class="footList">Copyright © 2023, The Rolling Pin Bakery</li> <!-- List item with copyright information -->
       </ul>
     </div>
   </div>

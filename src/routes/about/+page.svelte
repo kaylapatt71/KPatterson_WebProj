@@ -1,23 +1,26 @@
 <script>
-  import { onMount } from "svelte";
+  import { onMount } from "svelte"; // Importing the 'onMount' function from the 'svelte' library
 
-  let imgs = [];
-  const BASE_URL = `https://api.unsplash.com`;
+  // Initializing variables
+  let imgs = []; // Array to store image data
+  const BASE_URL = `https://api.unsplash.com`; // Base URL for Unsplash API
   let img;
-  onMount(async () => {
-    const res = await fetch(
+  // Executing code when the component is mounted
+  onMount(async () => { 
+    // Fetching data from the Unsplash API
+    const res = await fetch( 
       `${BASE_URL}/search/photos?query=bakery&per_page=1&orientation=portrait&client_id=NaEXvicetTERERuXGMiAr0ojC8yUdhMAyUdAQawJkf0`
     );
-    let data = await res.json();
-    imgs = data.results[0];
-    img = imgs.urls.regular;
+    let data = await res.json(); // Parsing the response data as JSON
+    imgs = data.results[0]; // Extracting the first result from the API response and storing it in the 'imgs' array
+    img = imgs.urls.regular; // Extracting the URL of the regular-sized image and storing it in the 'img' variable
   });
 </script>
 
 <div class="container">
   <title>Our Story | The Rolling Pin</title>
   <div class="img">
-    <img src={img} alt="" />
+    <img src={img} alt="" /> <!-- Pulling the images from the unsplash API-->
   </div>
   <div class="text">
     <p>
