@@ -28,7 +28,9 @@ To save time and not get too carried away, I utilised Open.AI ChatGPT by getting
 
 - [x] Responsive flexbox image gallery.
 
-- [x] Contact form that uses JavaScript to test input.
+- [x] Responsive content.
+
+- [x] Contact form that uses JavaScript to test input/validation.
 
 - [x] Unsplash API pulling images on the about us page.
 
