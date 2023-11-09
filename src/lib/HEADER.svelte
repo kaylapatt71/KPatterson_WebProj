@@ -1,11 +1,9 @@
-<header>
-  
-</header>
-
 <script>
-    import Nav from '$lib/NAV.svelte';
+  import Nav from "$lib/NAV.svelte";
 </script>
 
-<div class="hero"></div>
+<header>
+  <div class="hero" />
+  <Nav />
+</header>
 
-<Nav/>

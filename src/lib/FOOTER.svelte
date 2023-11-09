@@ -15,6 +15,11 @@
       })();
     </script>
     <div class="footleft">
+      <li>
+        <div class="navLogo">
+          <img src="/img/transpLogo.png" class="transpLogo" alt = "logo" />
+        </div>
+      </li>
       <div class="exploreheader" />
       <ul class="explorelist17">
         <li class="footList">Copyright © 2023, The Rolling Pin Bakery</li>
@@ -22,3 +27,10 @@
     </div>
   </div>
 </footer>
+
+<style>
+  .transpLogo {
+    width: 100px;
+    height: 100px;
+  }
+</style>
