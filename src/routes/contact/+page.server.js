@@ -13,7 +13,7 @@ export const actions = {
     const email = formData.get("email");
     const message = formData.get("message");
 
-     // Defining a schema for validating the contact form data
+    // Defining a schema for validating the contact form data
     const contactFormSchema = object({
       first_name: string()
         .min(2, "Too short")
@@ -46,7 +46,7 @@ export const actions = {
       // If validation fails, handle errors and return details
       console.log({ error });
 
-       // Extracting validation errors and mapping them to field-specific error messages
+      // Extracting validation errors and mapping them to field-specific error messages
       const errors = error.inner.reduce((acc, err) => {
         return { ...acc, [err.path]: err.message };
       }, {});

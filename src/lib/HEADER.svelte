@@ -3,7 +3,7 @@
 </script>
 
 <header>
-  <div class="hero" /> <!-- Hero image above navbar -->
+  <div class="hero" />
+  <!-- Hero image above navbar -->
   <Nav />
 </header>
-

@@ -6,9 +6,9 @@
   const BASE_URL = `https://api.unsplash.com`; // Base URL for Unsplash API
   let img;
   // Executing code when the component is mounted
-  onMount(async () => { 
+  onMount(async () => {
     // Fetching data from the Unsplash API
-    const res = await fetch( 
+    const res = await fetch(
       `${BASE_URL}/search/photos?query=bakery&per_page=1&orientation=portrait&client_id=NaEXvicetTERERuXGMiAr0ojC8yUdhMAyUdAQawJkf0`
     );
     let data = await res.json(); // Parsing the response data as JSON
@@ -20,7 +20,8 @@
 <div class="container">
   <title>Our Story | The Rolling Pin</title>
   <div class="img">
-    <img src={img} alt="" /> <!-- Pulling the images from the unsplash API-->
+    <img src={img} alt="" />
+    <!-- Pulling the images from the unsplash API-->
   </div>
   <div class="text">
     <p>
@@ -50,11 +51,8 @@
 </div>
 
 <style>
-
-.text {
+  .text {
     font-size: 1.25rem;
     color: var(--mainText);
   }
-
 </style>
-
