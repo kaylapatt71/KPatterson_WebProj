@@ -46,3 +46,12 @@
   </div>
 </div>
 
+<style>
+
+.text {
+    font-size: 1.25rem;
+    color: var(--mainText);
+  }
+
+</style>
+

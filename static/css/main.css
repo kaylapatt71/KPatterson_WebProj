@@ -72,6 +72,7 @@ footer {
 
 .footList {
   color: var(--mainText);
+  font-size: 1.25rem;
 }
 
 .container {
