@@ -11,7 +11,7 @@ To run site - Open a terminal in VS Code, install svelte kit with "npm i" and op
 
 Check the [inspiration](inspo.md) file for my inspiration sites. 
 
-**Project Description**
+# Project Description
 
 I used https://kit.svelte.dev/ framework to build the site. The site was built in VisualStudio Code.
 
