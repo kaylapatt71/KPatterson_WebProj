@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="css/gallery.css" />
+<link rel="stylesheet" href="css/gallery.css" /> <!--Linking gallery stylesheet-->
 
 <div class="row">
   <title>Product Gallery | The Rolling Pin</title>
